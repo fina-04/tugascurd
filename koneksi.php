@@ -6,10 +6,10 @@
 
     $koneksi = mysqli_connect($serverName, $userName, $password, $database);
 
-   if(!$koneksi){
-       die("koneksi gagal".mysqli_connect_error());
-    }
-   else{
-       echo "koneksi berhasil";
-    }
+//    if(!$koneksi){
+//        die("koneksi gagal".mysqli_connect_error());
+//     }
+//    else{
+//        echo "koneksi berhasil";
+//     }
 ?>
